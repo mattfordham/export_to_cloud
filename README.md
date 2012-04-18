@@ -8,7 +8,7 @@ Usage
 
 ### Require the gem
 
-    gem 'export_to_cloud', :git => "git://github.com/mattfordham/export_to_cloud.git"
+    gem 'export_to_cloud'
     
 ### Configure
 
