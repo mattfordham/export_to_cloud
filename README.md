@@ -1,7 +1,7 @@
 export\_to_cloud
 ================
 
-export\_to_cloud provides a simple way to export all rows of an ActiveRecord model in Rails to Amazon S3 as a time-stamped single CSV file.
+export\_to_cloud provides a simple way to export all rows of an ActiveRecord model in Rails to Amazon S3 as a time-stamped CSV file.
 
 Usage
 =====
@@ -26,6 +26,9 @@ Call the method on any of your models, like so...
     Person.export_to_cloud
     
 I usually make this call in a cron job or manually via the console. 
+
+That's it!
+
 
 To-do
 =====
