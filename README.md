@@ -17,7 +17,7 @@ Create an initializer in 'config/initializers' called something like 'export\_to
     ExportToCloud.aws_access_key_id = "your_access_id"
     ExportToCloud.aws_secret_access_key = "your_secret_key"
     ExportToCloud.s3_bucket = "your_bucket_name"
-    ExportToCloud.path = "path/to/directory/" # set as an empty string if you want the CSV files to end up in the root of the bucket
+    ExportToCloud.path = "path/to/directory/in/bucket/"
 
 ### Call 
   
@@ -27,7 +27,7 @@ Call the method on any of your models, like so...
     
 I usually make this call in a cron job or manually via the console. 
 
-To Do
+To-do
 =====
 
 Add some tests. If anyone has an idea how to pull if off, given the S3 integration, I'm all ears :)
