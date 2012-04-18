@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Exports all rows of a Rails model as a CSV file to Amazon S3"
   s.description = "Adds a class method to all ActiveRecord models in Rails that exports all rows in a single CSV file to an Amazon S3 bucket"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_runtime_dependency "fog"
   

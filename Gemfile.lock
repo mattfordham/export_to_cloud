@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     export_to_cloud (0.0.1)
-      rails (~> 3.2.3)
+      fog
 
 GEM
   remote: http://rubygems.org/
@@ -144,10 +144,10 @@ PLATFORMS
 
 DEPENDENCIES
   export_to_cloud!
-  fog
   guard
   guard-rspec
   jquery-rails
+  rails (~> 3.2.3)
   rspec-rails
   ruby-debug19
   sqlite3
